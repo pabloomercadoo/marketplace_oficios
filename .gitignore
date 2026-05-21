@@ -1,0 +1,40 @@
+# =========================
+# BACKEND (Python / FastAPI)
+# =========================
+# Entornos virtuales (¡Súper pesados, no se suben!)
+.venv/
+venv/
+env/
+.venv-1/
+env-1/
+.venv2/
+env2/
+
+# Archivos compilados de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# =========================
+# FRONTEND (React / Vite)
+# =========================
+# Dependencias de Node (¡Pesan un montón!)
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# =========================
+# SEGURIDAD Y SECRETOS (¡Lo más importante!)
+# =========================
+# Nunca subir contraseñas de bases de datos
+.env
+.env.*
+
+# =========================
+# ARCHIVOS DEL EDITOR Y SISTEMA OPERATIVO
+# =========================
+.vscode/
+.idea/
+.DS_Store
